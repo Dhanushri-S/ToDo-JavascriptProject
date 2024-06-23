@@ -102,3 +102,26 @@ border-radius:50%;
 ul li span:hover{
 background:#edeef0;
 }
+@media (max-width:421px){
+    button{
+        padding:16px 35px;
+    }
+}
+@media(max-width:381px){
+    button {
+        padding: 12px 25px;
+    }
+    .row{
+        padding-left:0px;
+    }
+}
+@media(max-width:351px){
+    button {
+        padding: 8px 20px;
+        font-size:14px;
+        line-height:21px;
+    }
+    .todo-app {
+        padding: 40px 20px 70px;
+    }
+}
